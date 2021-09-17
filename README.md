@@ -1,18 +1,35 @@
-# Building a website with Node.js and Express
+# Building website with nodejs
 
-This repository contains the code for my course 'Building a Website with Node.js Node.js' on [LinkedIn Learning](https://www.linkedin.com/learning/building-a-website-with-node-js-and-express-js-3).
+Building website with dynamic contents with nodejs to show how to use express (eg. ejs, http-errors, body-parser, express-validator).
 
-The master branch contains the initial version to get started with, while the branches contain the state of the code at the beginning (e.g. 02_02**b**) and end (e.g. 02_02**e**) of a video.
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Setting up the project
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-* In your terminal, create directory `building-website-nodejs-express` and **change into it**.
-* Run 
-  ```bash
-  git clone --bare git@github.com:danielkhan/building-website-nodejs-express.git .git
-  git config --bool core.bare false
-  git reset --hard
-  git branch
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
   ```
-  
-Everything else will be discussed in my course.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/quocluong32/web-with-nodejs.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3 Open terminal and run
+  ```sh
+  npm run dev
+  ```
+4 Open your favorite browser and access localhost://3000
+
+
